@@ -1,0 +1,113 @@
+@media (max-width: 880px) {
+  body .main-box {
+    width: 80%;
+    height: 40%;
+
+  }
+  
+}
+
+@media (max-width: 660px) {
+  body {
+    font-size: 1em;
+  }
+  body .main-box {
+    width: 80%;
+	height: 55%;
+    margin: 0px;
+  }
+  
+}
+
+@media (max-height: 568px) {
+  body .main-box {
+    height: 50%;
+  }
+}
+
+body {
+  background-image: url('../img/fondo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+p {
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  font-size: 14px;
+  color: #C3C3E5;
+}
+
+.main-container {
+  text-align: center;
+}
+
+#btn {
+  left: 50%;
+  bottom: 5%;
+  margin-top: 20px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background: white;
+  border: 1px solid black;
+  box-shadow: 3px 3px 0px black;
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  font-size: 14px;
+}
+
+#btn:hover {
+  background: black;
+  border: 1px solid white;
+  box-shadow: 3px 3px 0px white;
+  color: white;
+}
+
+.main-box {
+  width: 60%;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  height: 40%;
+  padding: 10px;
+  text-align: center;
+  background: white;
+  border: 2px solid black;
+  box-shadow: 10px 10px 0px black;
+  font-family: 'Bungee Hairline', cursive;
+  margin-bottom: 10px;
+
+}
+
+.title h1 {
+  margin-bottom: 5px;
+}
+
+.title h3 {
+  margin-top: 5px;
+}
+
+.contact-info {
+  position: absolute;
+  bottom: 15px;
+  width:100%;
+}
+
+.contact-info p {
+  text-align: center;
+  padding-right: 20px;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #fb5d18;
+}
+
+.fa-anchor {
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+.fa-anchor:hover {
+  -webkit-transform: rotate(360);
+  transform: rotate(360deg);
+}
