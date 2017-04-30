@@ -1,1 +1,7 @@
-# viCetina.github.io
+# Personal site 
+
+Carlos Gorrin 
+
+/////////////
+
+Web Developer
