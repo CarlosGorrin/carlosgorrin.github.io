@@ -42,25 +42,6 @@ p {
   text-align: center;
 }
 
-#btn {
-  left: 50%;
-  bottom: 5%;
-  margin-top: 20px;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  background: white;
-  border: 1px solid black;
-  box-shadow: 3px 3px 0px black;
-  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-  font-size: 14px;
-}
-
-#btn:hover {
-  background: black;
-  border: 1px solid white;
-  box-shadow: 3px 3px 0px white;
-  color: white;
-}
 
 .main-box {
   width: 60%;
