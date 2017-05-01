@@ -84,6 +84,11 @@ p {
   color: #fb5d18;
 }
 
+.contact-info a:hover {
+  color: black;
+}
+
+
 .fa-anchor {
   -webkit-transition: -webkit-transform .8s ease-in-out;
   transition: transform .8s ease-in-out;
