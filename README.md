@@ -2,6 +2,6 @@
 
 Carlos Gorrin 
 
-/////////////
+///////////////
 
-Web Developer
+Front End Developer
