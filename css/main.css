@@ -10,6 +10,7 @@ body {
   background: whitesmoke;
   margin-bottom: 10px;
   font-family: 'Inconsolata', monospace;
+  cursor: pointer;
 }
 section {
   display: inline-flex;
@@ -39,15 +40,23 @@ h2 {
 h2, h3 {
   letter-spacing: 5px;
 }
-a {
+p a {
   color: #000;
 }
-ul {
-  list-style-type: none;
-  display: flex;
+p a:hover {
+  color: #800020;
 }
 footer {
-  background: white;
+  color:#0000;
+  background: 
+    linear-gradient(90deg,white 50%,black 0) 
+    var(--_p,100%)/200%,
+    linear-gradient(90deg,white 50%,black 0) 
+    var(--_c,0%)/200%
+    no-repeat;
+  -webkit-background-clip: text,padding-box;
+          background-clip: text,padding-box;
+  transition: .5s;
   padding: 3px 0;
   width: 100%;
   display: flex;
@@ -55,19 +64,35 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-}
-footer li a i {
-  color: #000;
-  margin-right: 10px;
-}
-footer li a i:hover, a:hover {
-  transform: scale(1.7);
-  color: #fb8f00;
+  margin-top: 20px;
 }
 footer p {
   font-size: 13px;
   line-height: 17px;
   margin-left: 10px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+}
+footer:hover, footer i:hover, footer a:hover {
+  --_p: 0%;
+  --_c: 100%;
+}
+footer li a i {
+  margin-right: 15px;
+}
+footer a {
+  color: linear-gradient(90deg,white 50%,black 0) 
+    var(--_p,100%)/200%,
+    linear-gradient(90deg,white 50%,black 0) 
+    var(--_c,0%)/200%
+    no-repeat;
+}
+footer li a i:hover {
+  transform: scale(1.8);
+  transition: .2s;
+  color: #ffffff;
 }
 
 @media (max-width: 1000px) {
